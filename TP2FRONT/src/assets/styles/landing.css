@@ -34,20 +34,97 @@ font-family: 'Geologica', sans-serif;
   margin-top: 10px;
 }
 
-.disponible {}
+.disponible {
+  color:#F0CE46;
+  font-weight: bold;
+  font-size: 64px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
 
 .panchos {
   display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
 }
 
-.navbar {}
+.clasicopancho {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.navbar {}
+.clasicoboton {
+  cursor: pointer;
+    align-items: center;
+  justify-content: center;
+}
 
-.navbar {}
+.clasicodesc {
+  font-size: 32px;
+  color:#F0CE46;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.precioclasico {
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color:#F0CE46;
+  font-weight: bold;
+}
 
-.navbar {}
+.guacamolepancho {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.navbar {}
+.guacamoleboton {
+  cursor: pointer;
+}
 
-.navbar {}
+.guacamoledesc {
+  font-size: 32px;
+  color:#F0CE46;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.precioguacamole {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color:#F0CE46;
+  font-weight: bold;
+}
+
+.criollopancho {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.criolloboton {
+  cursor: pointer;
+}
+
+.criollodesc {
+  font-size: 32px;
+  color:#F0CE46;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.preciocriollo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color:#F0CE46;
+  font-weight: bold;
+}

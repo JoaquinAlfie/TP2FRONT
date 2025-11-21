@@ -14,37 +14,31 @@ function Landing({setPage, user}: LandingProps) {
 return (
     <div className="landingpag">
       <header className="navbar">
-        <img src="/img/logochico.png" alt="Logo" className="eluser" style={{ width: "187.23px", height: "187.23px" }}/>
+        <img src="/img/logochico.png" alt="Logo" className="logosmall" style={{ width: "187.23px", height: "187.23px" }}/>
         <button className="usuariolanding">{user}</button>
       </header>
         <h1 className="disponible">DISPONIBLE</h1>
       <section className="panchos">
         <section className="clasicopancho">
           <a className="clasicoboton" onClick={() => setPage("clasico")}>
-            <img src="/img/clasico.png" alt="Logo" style={{ width: "407px", height: "325px" }}/>
+            <img src="/img/clasicog.png" alt="Logo" style={{ width: "407px", height: "325px" }}/>
           </a>
-          <p className="precioclasico">
-            PANCHO CLASICO 
-            $2500
-          </p>
+          <p className="clasicodesc">PANCHO CLASICO </p>
+          <p className="precioclasico">$2500</p>
         </section>
         <section className="guacamolepancho">
           <a className="guacamoleboton" onClick={() => setPage("guacamole")}>
-            <img src="/img/guacamole.png" alt="Logo" style={{ width: "407px", height: "325px" }}/>
+            <img src="/img/guacamoleg.png" alt="Logo" style={{ width: "407px", height: "325px" }}/>
           </a>
-          <p className="precioguacamole">
-            PANCHO GUACAMOLE
-            $3000
-          </p>
+          <p className="guacamoledesc">PANCHO GUACAMOLE</p>
+          <p className="precioguacamole">$3000 </p>
         </section>
         <section className="criollopancho">
           <a className="criolloboton" onClick={() => setPage("criollo")}>
-            <img src="/img/criollo.png" alt="Logo" style={{ width: "407px", height: "325px" }}/>
+            <img src="/img/criollog.png" alt="Logo" style={{ width: "407px", height: "325px" }}/>
           </a>
-          <p className="preciocriollo">
-            PANCHO CRIOLLO
-            $3000
-          </p>
+          <p className="criollodesc">PANCHO CRIOLLO</p>
+          <p className="preciocriollo">$3000</p>
         </section>
       </section>
     </div>

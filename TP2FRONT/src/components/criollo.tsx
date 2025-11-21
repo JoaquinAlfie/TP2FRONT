@@ -16,12 +16,14 @@ return (
           <img src="/img/volver.png" alt="Logo" style={{ width: "152px", height: "78.24px" }}/>
         </a>
       </header>
+      <main className="maincriollo">
         <h1 className="titulocriollo">PANCHO CRIOLLO</h1>
         <img src="/img/criollog.png" alt="Logo" className="fotocriollo" style={{ width: "817px", height: "460px" }}/>
         <p className="descripcioncriollo">
           Pancho con carne 100% de cerdo, salsa criolla y aderezo a eleccion. Suma un exclusivo auto F1 coleccionable por solo $7.499. Solo por tiempo limitado o hasta agotar stock
         </p>
         <button className="enviarcriollo" onClick={() => setPage("pedido")}>Enviar pedido</button>
+        </main>
     </div>
 )
 }

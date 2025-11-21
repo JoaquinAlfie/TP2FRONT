@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clasicopag {
+    font-family: 'Geologica', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DA291C; 
+}
+
+.volver {
+    cursor: pointer;
+}
+
+.mainclasico {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloclasico{
+    color: #F0CE46;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.fotoclasico {
+    margin-top: 20px;
+}
+
+.descripcionclasico{
+    color: #F0CE46;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 994px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.enviarclasico{
+    width: 448px;
+    height: 93px;
+    border-radius: 150px;
+    background-color: #F0CE46;
+    color: #DA291C;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    resize: none;
+    margin-top: 20px;
+}
