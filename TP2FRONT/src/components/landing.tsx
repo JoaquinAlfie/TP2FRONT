@@ -14,7 +14,7 @@ function Landing({setPage, user}: LandingProps) {
 return (
     <div className="landingpag">
       <header className="navbar">
-        <img src="/img/logochico.png" alt="Logo" style={{ width: "187.23px", height: "187.23px" }}/>
+        <img src="/img/logochico.png" alt="Logo" className="eluser" style={{ width: "187.23px", height: "187.23px" }}/>
         <button className="usuariolanding">{user}</button>
       </header>
         <h1 className="disponible">DISPONIBLE</h1>

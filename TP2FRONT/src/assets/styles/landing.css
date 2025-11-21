@@ -7,12 +7,47 @@
 .landingpag {
 font-family: 'Geologica', sans-serif;
   background-color: #DA291C; 
+  width: 100vw;
+  height: 100vh;
 }
 
 .navbar {
   display: flex;
     width: 100%;
-    align-items: center;
     justify-content: space-between;
     padding-inline: 40px;
+    padding-top: 20px;
 }
+
+.logosmall {}
+
+.usuariolanding {
+  width: 448px;
+  height: 93px;
+  background-color: #F0CE46;
+  color: #DA291C;
+  border-radius: 150px;
+  font-size: 60px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.disponible {}
+
+.panchos {
+  display: flex;
+}
+
+.navbar {}
+
+.navbar {}
+
+.navbar {}
+
+.navbar {}
+
+.navbar {}
+
+.navbar {}
