@@ -10,9 +10,18 @@ type GuacamoleProps = {
 
 function Guacamole({setPage}: GuacamoleProps) {
 return (
-    <div className="estart">
-        <img src="/img/logox4.png" alt="Logo" style={{ width: "721px", height: "721px" }}/>
-        <button className="iniciar" onClick={() => setPage("login")}></button>
+    <div className="guacamolepag">
+      <header className="navbar">
+        <a className="volver" onClick={() => setPage("landing")}>
+          <img src="/img/volver.png" alt="Logo" style={{ width: "152px", height: "78.24px" }}/>
+        </a>
+      </header>
+        <h1 className="tituloguacamole">PANCHO GUACAMOLE</h1>
+        <img src="/img/guacamoleg.png" alt="Logo" className="fotoguacamole" style={{ width: "817px", height: "460px" }}/>
+        <p className="descripcionguacamole">
+          Pancho con carne 100% de cerdo, salsa guacamole aderezo a eleccion. Suma un exclusivo auto F1 coleccionable por solo $7.499. Solo por tiempo limitado o hasta agotar stock
+        </p>
+        <button className="enviarguacamole" onClick={() => setPage("pedido")}>Enviar pedido</button>
     </div>
 )
 }

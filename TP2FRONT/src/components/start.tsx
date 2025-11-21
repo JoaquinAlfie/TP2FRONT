@@ -10,7 +10,7 @@ type StartProps = {
 
 function Start({setPage}: StartProps) {
 return (
-    <div className="estart">
+    <div className="startpag">
         <img src="/img/logox4.png" alt="Logo" style={{ width: "721px", height: "721px" }}/>
         <button className="iniciar" onClick={() => setPage("login")}>INICIAR SESION</button>
     </div>
