@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginpag {
+font-family: 'Geologica', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #DA291C; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px
+}
+
+.logueo {
+
+}
+
+.logintitulo{
+    font-weight: bold;
+    color: #F0CE46;
+    align-items: left;
+    font-size: 36px;
+    margin-bottom: 33px;
+}
+
+.usuario{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    margin-bottom: 33px;
+}
+
+#usuario1{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.contra{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contra1{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+#ocultar{
+    color: #DA291C;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.enter{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.obligatorios{
+    color: #F0CE46;
+    text-decoration: none;
+    resize: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+::placeholder {
+    color: #DA291C;
+    font-weight: bold;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landingpag {
+font-family: 'Geologica', sans-serif;
+  background-color: #DA291C; 
+}
+
+.navbar {
+  display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+}

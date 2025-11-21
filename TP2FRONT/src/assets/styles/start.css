@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.startpag {
+font-family: 'Geologica', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #DA291C; 
+  gap: 50px
+}
+
+.iniciar {
+    background-color: #F0CE46;
+    color: #DA291C;
+    width: 503px;
+    height: 152px;
+    border: none;
+    border-radius: 14px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Geologica';
+    cursor: pointer;
+}

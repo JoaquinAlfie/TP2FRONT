@@ -32,17 +32,17 @@ return (
         <div className="logueo">
           <h2 className="logintitulo">Iniciar Sesion</h2>
             <section className="usuario">
-              <input id="usuario" name="usuario" placeholder="Usuario" maxLength={10} value={name} onChange={(e)=> setName (e.target.value)}/>
+              <input id="usuario1" name="usuario" placeholder="Usuario" maxLength={10} value={name} onChange={(e)=> setName (e.target.value)}/>
             </section>
             <section className="contra">
-              <input id="contra" name="contra" placeholder="Contraseña" maxLength={20} type={showPassword ? "text" : "password"} value={password} onChange={(e)=> setPassword (e.target.value)}/>
+              <input id="contra1" name="contra" placeholder="Contraseña" maxLength={20} type={showPassword ? "text" : "password"} value={password} onChange={(e)=> setPassword (e.target.value)}/>
               <a id="ocultar" onClick={(e) => { e.preventDefault(); setShowPassword(!showPassword);}}>
                 <img src="/img/invisible.png" alt="invisible" style={{ width: "40px", height: "39px" }}/>
               </a>
             </section>
             <button className="enter" onClick={handleLogin}>Iniciar Sesión</button>
+            {error && <p className="obligatorios">{error}</p>}
         </div>
-        {error && <p className="obligatorios">{error}</p>}
     </div>
 )
 }
