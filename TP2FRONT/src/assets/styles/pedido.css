@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pedidopag {
+    font-family: 'Geologica', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DA291C; 
+}
+
+.mainpedido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviatitulo{
+    color:#F0CE46;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.codigo{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    margin-top: 90px;
+}
+
+#codigo1{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.direccion{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    margin-top: 40px;
+}
+
+#direccion1{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.departamento{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    margin-top: 40px;
+}
+
+#departamento1{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    border-radius: 14px;
+    width: 578px;
+    height: 97.12px;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.comprar{
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+    margin-top: 90px;
+    width: 693.68px;
+    height: 144px;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.obligatorios1{
+    color: #F0CE46;
+    text-decoration: none;
+    resize: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}

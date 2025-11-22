@@ -53,6 +53,24 @@ font-family: 'Geologica', sans-serif;
     padding-left: 40px;
 }
 
+.usuario:focus{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+}
+
+#usuario1:focus{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+}
+
 .contra{
     background-color: #F0CE46;
     color: #DA291C;
@@ -80,6 +98,23 @@ font-family: 'Geologica', sans-serif;
     font-weight: bold;
     justify-content: center;
     padding-left: 40px;
+}
+
+.contra1:focus{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
+}
+#contra1:focus{
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    background-color: #F0CE46;
+    color: #DA291C;
+    border: none;
 }
 
 #ocultar{
@@ -121,3 +156,4 @@ a {
     align-items: center;
     justify-content: center;
 }
+

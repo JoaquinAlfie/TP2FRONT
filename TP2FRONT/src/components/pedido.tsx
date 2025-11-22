@@ -1,4 +1,5 @@
 import "../assets/styles/pedido.css"
+import React, { useState } from "react";
 
 type PedidoProps = {
     setPage: React.Dispatch< //función para cambiar la página que se muestra
@@ -9,6 +10,19 @@ type PedidoProps = {
 };
 
 function Pedido({setPage}: PedidoProps) {
+      const [codigo, setCodigo] = useState("");
+      const [direccion, setDireccion] = useState("");
+      const [depto, setDepto] = useState("");
+      const [error, setError] = useState("");
+
+            const handlePedir = async () => {
+        if (!codigo || !direccion || !depto) {
+          setError("Todos los campos son obligatorios");
+          return;
+        } else {
+          alert("Compra completada con éxito. Aguarda tu pedido.");
+        }
+      }
 return (
     <div className="pedidopag">
       <header className="navbar">
@@ -19,16 +33,17 @@ return (
       <main className="mainpedido">
         <h1 className="enviatitulo">ENVIA TU PEDIDO</h1>
         <section className="codigo">
-          <input id="codigo" name="codigo" placeholder="Codigo postal" maxLength={15}/>
+          <input id="codigo1" name="codigo" placeholder="Codigo postal" maxLength={20} value={direccion} onChange={(e)=> setDireccion (e.target.value)}/>
         </section>
         <section className="direccion">
-          <input id="direccion" name="direccion" placeholder="Dirección" maxLength={30}/>
+          <input id="direccion1" name="direccion" placeholder="Dirección" maxLength={20} value={direccion} onChange={(e)=> setDireccion (e.target.value)}/>
         </section>
         <section className="departamento">
-          <input id="departamento" name="departamento" placeholder="Departamento (si es necesario)" maxLength={30}/>
+          <input id="departamento1" name="departamento" placeholder="Departamento" maxLength={20} value={depto} onChange={(e)=> setDepto (e.target.value)}/>
         </section>
-        <button className="comprar">COMPRAR</button>
+        <button className="comprar"onClick={handlePedir}>COMPRAR</button>
       </main>
+      {error && <p className="obligatorios1">{error}</p>}
     </div>
 )
 }
