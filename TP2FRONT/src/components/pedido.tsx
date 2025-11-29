@@ -33,7 +33,7 @@ return (
       <main className="mainpedido">
         <h1 className="enviatitulo">ENVIA TU PEDIDO</h1>
         <section className="codigo">
-          <input id="codigo1" name="codigo" placeholder="Codigo postal" maxLength={20} value={direccion} onChange={(e)=> setDireccion (e.target.value)}/>
+          <input id="codigo1" name="codigo" placeholder="Codigo postal" maxLength={20} value={codigo} onChange={(e)=> setCodigo (e.target.value)}/>
         </section>
         <section className="direccion">
           <input id="direccion1" name="direccion" placeholder="Dirección" maxLength={20} value={direccion} onChange={(e)=> setDireccion (e.target.value)}/>
